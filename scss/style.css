@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100%;
   background: linear-gradient(41deg, rgb(145, 31, 31), rgb(5, 5, 144));
+  overflow: hidden;
 }
 
 .footer {
@@ -16,4 +17,16 @@
 
 .h-half {
   height: 34vh;
+}
+
+@media (min-width: 1920px) {
+  .title-body p {
+    font-size: 30px;
+  }
+  .body-text ul li {
+    font-size: 30px;
+  }
+  .body-text ul li p {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
