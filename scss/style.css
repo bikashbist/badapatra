@@ -32,6 +32,15 @@
   height: 100%;
 }
 
+.h-half {
+  height: 50%;
+}
+
+.aside-card {
+  height: 100%;
+  width: 100%;
+}
+
 @media (min-width: 1920px) {
   .title-body p {
     font-size: 30px;
