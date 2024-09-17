@@ -18,6 +18,29 @@
 // .h-half{
 //     height: 34vh;
 // }
+.body-content{
+    &--first{
+        width: 70%;
+    }
+    &--second{
+        width: 30%;
+    }
+}
+.body-content {
+    display: flex;
+    align-items: stretch; /* Ensures both columns are of the same height */
+}
+
+.body-content--first,
+.body-content--second {
+    flex: 1; /* Makes both divs take equal width and height */
+}
+
+
+
+.h-full {
+    height: 100%;
+}
 @media  (min-width: 1920px) {
     .title-body{
         p{
