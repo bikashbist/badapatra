@@ -85,6 +85,27 @@ body{
     border: none;
     
 }
+// for slider
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.partinedhi {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+//slider end
+
 @media (min-width: 1920px) { 
     h3 {
         font-size: 32px;
