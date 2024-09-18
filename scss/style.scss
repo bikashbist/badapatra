@@ -1,8 +1,6 @@
 .badapatra{
     height: 100vh;
-
     background: linear-gradient(41deg, rgb(145, 31, 31), rgb(5, 5, 144));
-    // overflow: hidden;
 }
 .footer{
     position: fixed;
@@ -12,58 +10,16 @@
     width: 100%;
     
 }
-// .h-full{
-//     height: 68vh;
-// }
-// .h-half{
-//     height: 34vh;
-// }
-.body-content{
-    &--first{
-        width: 70%;
-    }
-    &--second{
-        width: 30%;
-    }
+.header{
+    height: 20%;
 }
-.body-content {
-    display: flex;
-    align-items: stretch; /* Ensures both columns are of the same height */
+.main-body{
+    height: 72%;
 }
-
-.body-content--first,
-.body-content--second {
-    flex: 1; /* Makes both divs take equal width and height */
+.footer{
+    height: 8%;
 }
 
 
 
-.h-full {
-    height: 100%;
-}
-.h-half{
-    height: 50%;
-}
-.aside-card{
-    height: 100%;
-    width: 100%;
-}
-@media  (min-width: 1920px) {
-    .title-body{
-        p{
-            font-size: 30px;
-        }
-    }
-    .body-text{
-        ul{
-            li{
-                font-size: 30px;
-                p{
-                    font-size: 30px;
-                }
-            }
-        }
-    }
 
-
-}
