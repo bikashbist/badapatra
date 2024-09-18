@@ -20,6 +20,14 @@
     height: 8%;
 }
 
+.main-body{
+    &__first{
+        width: 65%;
+    }
+    &__second{
+        width: 35%;
+    }
+}
 
 
 

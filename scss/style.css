@@ -21,4 +21,11 @@
 
 .footer {
   height: 8%;
+}
+
+.main-body__first {
+  width: 65%;
+}
+.main-body__second {
+  width: 35%;
 }/*# sourceMappingURL=style.css.map */
