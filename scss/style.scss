@@ -100,6 +100,9 @@ body{
 .partinedhi {
     min-width: 100%;
     box-sizing: border-box;
+    &__details{
+        height: 100%;
+    }
 }
 
 
