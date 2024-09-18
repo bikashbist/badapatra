@@ -9,6 +9,7 @@
   right: 0;
   left: 0;
   width: 100%;
+  height: 8%;
 }
 
 .header {
@@ -16,21 +17,38 @@
 }
 
 .main-body {
-  height: 72%;
-}
-
-.footer {
-  height: 8%;
+  height: 68%; /* Reduce height slightly to account for margin */
+  display: flex;
+  gap: 2%; /* Space between first and second divs */
+  margin: 1%;
 }
 
 .main-body__first {
   width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .main-body__second {
   width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.main-body__second--first,
+.main-body__second--second {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+/* Ensure the last section doesn't have extra bottom margin */
+.main-body__second--second {
+  margin-bottom: 0;
+}
+
 .main-body--details {
-  height: 96%;
-  width: 98%;
-  margin: 1%;
+  height: 94%;
+  margin: 2%;
 }/*# sourceMappingURL=style.css.map */
