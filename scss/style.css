@@ -103,6 +103,11 @@ body {
 .partinedhi__details {
   height: 100%;
 }
+.partinedhi .partinedhi-img {
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 @media (min-width: 1920px) {
   h3 {
@@ -124,5 +129,10 @@ body {
   }
   .fs-4 {
     font-size: 2.5rem !important;
+  }
+  .partinedhi-img {
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=style.css.map */
