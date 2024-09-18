@@ -28,4 +28,9 @@
 }
 .main-body__second {
   width: 35%;
+}
+.main-body--details {
+  height: 96%;
+  width: 98%;
+  margin: 1%;
 }/*# sourceMappingURL=style.css.map */
