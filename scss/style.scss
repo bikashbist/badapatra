@@ -49,10 +49,18 @@
 }
 
 .main-body--details {
-    height: 94%;
-    margin: 2%;
+    height: 100%;
+    /* margin: 2%; */
     width: 100%;
 }
 .for-gap{
     gap: 3%;
+}
+.article{
+    ul{
+        margin-left: 0;
+        li{
+            font-size: 18px;
+        }
+    }
 }
