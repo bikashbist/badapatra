@@ -8,6 +8,33 @@ body {
   background: linear-gradient(41deg, rgb(145, 31, 31), rgb(5, 5, 144));
 }
 
+@media (min-width: 1920px) {
+  h3 {
+    font-size: 32px;
+  }
+  .fs-3 {
+    font-size: 42px !important;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .article ul li {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+    margin-bottom: 0px;
+    line-height: 46px;
+  }
+  .fs-4 {
+    font-size: 2.5rem !important;
+  }
+  .partinedhi-img {
+    height: 250px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .footer {
   position: fixed;
   bottom: 0;
@@ -107,32 +134,4 @@ body {
   height: 160px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-@media (min-width: 1920px) {
-  h3 {
-    font-size: 32px;
-  }
-  .fs-3 {
-    font-size: 42px !important;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  .article ul li {
-    font-size: 30px;
-  }
-  p {
-    font-size: 30px;
-    margin-bottom: 0px;
-    line-height: 46px;
-  }
-  .fs-4 {
-    font-size: 2.5rem !important;
-  }
-  .partinedhi-img {
-    height: 250px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
 }/*# sourceMappingURL=style.css.map */
