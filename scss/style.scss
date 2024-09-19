@@ -11,35 +11,6 @@ body{
     background: linear-gradient(41deg, rgb(145, 31, 31), rgb(5, 5, 144));
 }
 
-@media (min-width: 1920px) { 
-    h3 {
-        font-size: 32px;
-    }
-    .fs-3{
-        font-size: 42px!important;
-    }
-    h1{
-        font-size: 36px;
-    }
-
-    .article ul li {
-        font-size: 30px;
-    }
-    p {
-        font-size: 30px;
-        margin-bottom: 0px;
-        line-height: 46px;
-    }
-    .fs-4 {
-        font-size: 2.5rem !important;
-    }
-    // .partinedhi-img{
-    //     height: 70%!important;
-    //     object-fit: cover;
-    // }
-
-    
-}
 .footer {
     position: fixed;
     bottom: 0;
@@ -141,3 +112,99 @@ body{
 
 
 //slider end
+
+
+@media (min-width: 1920px) { 
+    h3 {
+        font-size: 32px;
+    }
+    .fs-3{
+        font-size: 42px!important;
+    }
+    h1{
+        font-size: 36px;
+    }
+
+    .article ul li {
+        font-size: 30px;
+    }
+    p {
+        font-size: 30px;
+        margin-bottom: 0px;
+        line-height: 46px;
+    }
+    .fs-4 {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (min-width: 1920px) { 
+    h3 {
+        font-size: 32px;
+    }
+    .fs-3{
+        font-size: 42px!important;
+    }
+    h1{
+        font-size: 36px;
+    }
+
+    .article ul li {
+        font-size: 30px;
+    }
+    p {
+        font-size: 30px;
+        margin-bottom: 0px;
+        line-height: 46px;
+    }
+    .fs-4 {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (min-width: 2560px) {
+ 
+    .article ul li {
+        font-size: 36px!important;
+    }
+    .fs-2 {
+        font-size: 4rem !important;
+    }
+    p {
+        font-size: 36px;
+        margin-bottom: 0px;
+        line-height: 56px;
+    }
+    .fs-3 {
+        font-size: 46px !important;
+    }
+    .fs-4 {
+        font-size: 3.5rem !important;
+    }
+    .fs-4 {
+        font-size: 3.5rem !important;
+    }
+    h5{
+        font-size: 36px;
+    }
+    h6{
+        font-size: 32px;
+    }
+  }
+  
+  /* For 8K TV screens (3840px and above) */
+  @media (min-width: 3840px) {
+    .fs-2 {
+        font-size: 4rem !important;
+    }
+    .fs-3{
+        font-size: 46px!important;
+    }
+   
+
+    .article ul li {
+        font-size: 30px;
+    }
+
+   
+  }
