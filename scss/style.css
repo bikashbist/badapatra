@@ -132,6 +132,11 @@ body {
   }
 }
 @media (min-width: 1920px) {
+  .partinedhi__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   h3 {
     font-size: 32px;
   }
@@ -151,6 +156,9 @@ body {
   }
   .fs-4 {
     font-size: 2.5rem !important;
+  }
+  .badapatra__heading--img {
+    margin-right: 20px;
   }
 }
 @media (min-width: 2560px) {
@@ -190,6 +198,10 @@ body {
     font-size: 46px !important;
   }
   .article ul li {
-    font-size: 30px;
+    font-size: 42px !important;
+  }
+  h3.text-primary.fw-bold {
+    font-size: 46px;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
