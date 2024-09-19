@@ -139,10 +139,13 @@ body{
 }
 
 @media (min-width: 1920px) { 
-    .partinedhi__details{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    // .partinedhi__details{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+    .margin-top{
+        margin-top: 20px;
     }
     h3 {
         font-size: 32px;
