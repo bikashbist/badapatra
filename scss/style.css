@@ -167,7 +167,7 @@ body {
     font-size: 4rem !important;
   }
   p {
-    font-size: 36px;
+    font-size: 44px;
     margin-bottom: 0px;
     line-height: 56px;
   }
@@ -179,6 +179,11 @@ body {
   }
   button.btn.btn-home.btn-primary.btn-lg.px-5.rounded-5.fs-4.fw-bold {
     font-size: 60px !important;
+    padding: 20px 82px !important;
+    border-radius: 60px !important;
+  }
+  .article.p-4 {
+    padding: 50px 70px 40px !important;
   }
   h5 {
     font-size: 36px;
@@ -186,20 +191,32 @@ body {
   h6 {
     font-size: 32px;
   }
+  .fs-3 {
+    font-size: 56px !important;
+  }
+  .main-body--details h1 {
+    padding: 50px 50px;
+  }
+  .main-body--details h1 {
+    padding: 40px 50px !important;
+  }
+  .main-body--details h1 {
+    padding: 40px 50px !important;
+  }
+  h3 {
+    font-size: 54px !important;
+  }
 }
 /* For 8K TV screens (3840px and above) */
 @media (min-width: 3840px) {
   .fs-2 {
     font-size: 4rem !important;
   }
-  .fs-3 {
-    font-size: 46px !important;
-  }
-  .article ul li {
-    font-size: 42px !important;
-  }
   h3.text-primary.fw-bold {
     font-size: 46px;
     margin-bottom: 20px;
+  }
+  .article ul li {
+    font-size: 46px !important;
   }
 }/*# sourceMappingURL=style.css.map */
