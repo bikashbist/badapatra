@@ -43,7 +43,8 @@
             </div>
             <div class="header-3">
                 <div class="badapatra__heading--btn text-center d-flex justify-content-center align-items-center h-100">
-                    <button class="btn btn-home btn-primary btn-lg px-5 rounded-5 fs-4 fw-bold   ">गृह पृष्ठ </button>
+                    <button class="btn btn-home btn-primary btn-lg px-5 rounded-5 fs-4 fw-bold" id="toggleBtn">गृह
+                        पृष्ठ</button>
                 </div>
             </div>
             <div class="header-4">
@@ -60,7 +61,7 @@
     </header>
 
     <section class="main-body d-flex">
-        <div class="main-body__first bg-white rounded overflow-hidden">
+        <div class="main-body__first bg-white rounded overflow-hidden one " id="divOne">
 
             <div class="owl-carousel owl-badapatra">
                 <div class="main-body--details">
@@ -130,34 +131,94 @@
             </div>
 
         </div>
+        <div class="main-body__first rounded overflow-hidden two d-none" id="divTwo">
+            <div class="main-body--details home-page">
+                <div class="row g-2">
+                    <div class="col-lg-4">
+                        <div class="card-body p-2 h-100 text-center bg-white rounded-3" onclick="showModal()">
+                            <img src="https://badapatra.prabidhienterprises.com.np/assets/uploads/icon/1712466194_9701.png"
+                                alt="img">
+                            <h3 class="fw-bold fs-2">
+                                कर कानुन
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-body p-2 h-100 text-center bg-white rounded-3" onclick="showModal()">
+                            <img src="https://badapatra.prabidhienterprises.com.np/assets/uploads/icon/1712466194_9701.png"
+                                alt="img">
+                            <h3 class="fw-bold fs-2">
+                                कर कानुन
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-body p-2 h-100 text-center bg-white rounded-3" onclick="showModal()">
+                            <img src="https://badapatra.prabidhienterprises.com.np/assets/uploads/icon/1712466194_9701.png"
+                                alt="img">
+                            <h3 class="fw-bold fs-2">
+                                कर कानुन
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-body p-2 h-100 text-center bg-white rounded-3" onclick="showModal()">
+                            <img src="https://badapatra.prabidhienterprises.com.np/assets/uploads/icon/1712466194_9701.png"
+                                alt="img">
+                            <h3 class="fw-bold fs-2">
+                                कर कानुन
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-body p-2 h-100 text-center bg-white rounded-3" onclick="showModal()">
+                            <img src="https://badapatra.prabidhienterprises.com.np/assets/uploads/icon/1712466194_9701.png"
+                                alt="img">
+                            <h3 class="fw-bold fs-2">
+                                कर कानुन
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-body p-2 h-100 text-center bg-white rounded-3" onclick="showModal()">
+                            <img src="https://badapatra.prabidhienterprises.com.np/assets/uploads/icon/1712466194_9701.png"
+                                alt="img">
+                            <h3 class="fw-bold fs-2">
+                                कर कानुन
+                            </h3>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="main-body--details bg-white h-100 d-none show-modal position-relative" id="showModal">
+                <button onclick="closeModal()" class="btn btn-danger position-absolute top-0 end-0 m-2">Close</button>
+                <h1 class="px-3 py-xxl-4 py-lg-2 py-2 text-center bg-primary fw-bold fs-3 text-white">
+                    कर कानुन
+                </h1>
+                <div class="article p-4">
+                    <h3 class="fw-bold">आवश्यक पर्ने कागजातहरु</h3>
+                    <ul>
+                        <li>&nbsp;व्यहोरा खुलेको निवेदन&nbsp;</li>
+                        <li>नेपाली नागरिकता प्रमाणपत्रको प्रतिलिपी&nbsp;</li>
+                        <li>&nbsp;वडा कार्यालयको सिफारिस&nbsp;</li>
+                        <li>&nbsp;मेडिकल सुपरिटेन्डेन्टको सिफारिस&nbsp;</li>
+                        <li>&nbsp;अपाङ्गता भएको देखिने फोटो&nbsp;</li>
+                        <li>&nbsp;अपाङ्गता भएको व्यक्तिको पासपोर्ट साईजको फोटो २ प्रति&nbsp;</li>
+                        <li>&nbsp;बसाईसरी आएको भए बसाईसराई दर्ता प्रमाणपत्रको प्रतिलिपी&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
         <div class="main-body__second d-flex flex-column justify-content-between ">
             <div class="main-body__second--first ">
                 <div class="h-100 d-flex for-gap">
-                    <!-- <div class=" flex-fill overflow-hidden ">
-                        <h2 class="fw-bold text-white fs-4 text-center py-1">प्रतिनिधि</h2>
-                        
-                                                
-                        <div class="partinedhi  bg-primary">
-                            <div class="img">
-                                <img class="w-100" src="img/staff.jpg" alt="img">
-                            </div>
-                            <div class="partinedhi__details text-center py-2 ">
-                                <h5 class="fw-bold text-white">दिनेश अधिकारी</h5>
-                                <h6 class="fw-bold text-white">नगर प्रमुख</h6>
-                            </div>
-                           
-                        </div>
-                        <div class="partinedhi  bg-primary">
-                            <div class="img">
-                                <img class="w-100" src="img/staff.jpg" alt="img">
-                            </div>
-                            <div class="partinedhi__details text-center py-2 ">
-                                <h5 class="fw-bold text-white">दिनेश अधिकारी</h5>
-                                <h6 class="fw-bold text-white">नगर प्रमुख</h6>
-                            </div>
-                           
-                        </div> 
-                    </div>-->
+
                     <div class="flex-fill overflow-hidden">
                         <h2 class="fw-bold text-white fs-4 text-center py-lg-1 py-xxl-3  py-1">प्रतिनिधि</h2>
 
@@ -224,24 +285,23 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="main-body__second--second bg-secondary rounded overflow-hidden ">
+            <div class="main-body__second--second bg-secondary rounded overflow-hidden ">
                 <div class="owl-carousel owl-gallery h-100" style="height: 100%;">
                     <div class="h-100">
                         <iframe width="100%" height="100%"
-                        src="https://www.youtube.com/embed/UxtnryixMQk?si=DS9OTnzzEuwYZmpn" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            src="https://www.youtube.com/embed/UxtnryixMQk?si=DS9OTnzzEuwYZmpn"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="h-100">
                         <iframe width="100%" height="100%"
-                        src="https://www.youtube.com/embed/UxtnryixMQk?si=DS9OTnzzEuwYZmpn" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            src="https://www.youtube.com/embed/UxtnryixMQk?si=DS9OTnzzEuwYZmpn"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
-                  
+
                 </div>
 
             </div>
@@ -266,30 +326,20 @@
     </script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- <script>
-        function createSlider(sliderTrackSelector) {
-            let currentIndex = 0;
-            const sliderTrack = document.querySelector(sliderTrackSelector);
-            const slides = sliderTrack.querySelectorAll('.partinedhi');
-            const totalSlides = slides.length;
 
-            function showNextSlide() {
-                currentIndex++;
-                if (currentIndex >= totalSlides) {
-                    currentIndex = 0;
-                }
-                sliderTrack.style.transition = 'transform 0.5s ease-in-out';
-                sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
-            }
-
-
-            setInterval(showNextSlide, 3000);
+    <script>
+        function showModal() {
+            // Hide the home-page and show the show-modal
+            document.querySelector('.home-page').classList.add('d-none');
+            document.getElementById('showModal').classList.remove('d-none');
         }
 
-     
-        createSlider('.flex-fill:nth-child(1) .slider-track'); 
-        createSlider('.flex-fill:nth-child(2) .slider-track'); 
-    </script> -->
+        function closeModal() {
+            // Hide the show-modal and show the home-page
+            document.getElementById('showModal').classList.add('d-none');
+            document.querySelector('.home-page').classList.remove('d-none');
+        }
+    </script>
     <script>
         function createSlider(sliderTrackSelector) {
             let currentIndex = 0;
@@ -309,7 +359,7 @@
             function showPrevSlide() {
                 currentIndex--;
                 if (currentIndex < 0) {
-                    currentIndex = totalSlides - 1; // Go to last slide
+                    currentIndex = totalSlides - 1;
                 }
                 updateSlider();
             }
@@ -319,35 +369,32 @@
                 sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
             }
 
-            // Variables to track mouse movement
             let isDragging = false;
             let startX = 0;
             let currentX = 0;
 
-            // Detect when the mouse starts dragging over the partinedhi element
             sliderTrack.addEventListener('mousedown', (e) => {
                 isDragging = true;
-                startX = e.clientX; // Get the initial mouse position
+                startX = e.clientX;
             });
 
-            // Detect mouse movement while dragging
+
             sliderTrack.addEventListener('mousemove', (e) => {
                 if (!isDragging) return;
                 currentX = e.clientX;
 
-                // Determine the direction of movement
                 const diff = currentX - startX;
 
-                if (diff > 50) { // Right slide (mouse moved to the right)
+                if (diff > 50) {
                     showPrevSlide();
-                    isDragging = false; // Reset dragging to prevent multiple slides
-                } else if (diff < -50) { // Left slide (mouse moved to the left)
+                    isDragging = false;
+                } else if (diff < -50) {
                     showNextSlide();
                     isDragging = false;
                 }
             });
 
-            // Reset dragging state when the user stops dragging
+
             sliderTrack.addEventListener('mouseup', () => {
                 isDragging = false;
             });
@@ -356,13 +403,11 @@
                 isDragging = false;
             });
 
-            // Automatic sliding every 3 seconds
             setInterval(showNextSlide, 3000);
         }
 
-        // Initialize sliders
-        createSlider('.flex-fill:nth-child(1) .slider-track'); // For प्रतिनिधि slider
-        createSlider('.flex-fill:nth-child(2) .slider-track'); // For कर्मचारी slider
+        createSlider('.flex-fill:nth-child(1) .slider-track');
+        createSlider('.flex-fill:nth-child(2) .slider-track');
     </script>
     <script>
         $('.owl-badapatra').owlCarousel({
@@ -395,7 +440,24 @@
             ],
 
         })
-        
+    </script>
+    <script>
+        document.getElementById("toggleBtn").addEventListener("click", function () {
+            var divOne = document.getElementById("divOne");
+            var divTwo = document.getElementById("divTwo");
+            var button = document.getElementById("toggleBtn");
+
+            // Toggle visibility with Bootstrap class and smooth transition
+            if (divOne.classList.contains("d-none")) {
+                divOne.classList.remove("d-none");
+                divTwo.classList.add("d-none");
+                button.textContent = "गृह पृष्ठ"; // Change button text back
+            } else {
+                divOne.classList.add("d-none");
+                divTwo.classList.remove("d-none");
+                button.textContent = "स्लाइडशो"; // Change button text
+            }
+        });
     </script>
 </body>
 
