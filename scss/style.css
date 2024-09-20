@@ -30,9 +30,6 @@ body {
 
 .main-body__first {
   width: 65%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .main-body__second {
@@ -57,6 +54,10 @@ body {
   height: 100%;
   /* margin: 2%; */
   width: 100%;
+}
+.main-body--details h3 {
+  color: #2e2ea0;
+  font-size: 20px;
 }
 
 .for-gap {
