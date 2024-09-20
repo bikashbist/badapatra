@@ -49,6 +49,15 @@ body {
 .main-body__second--second {
   margin-bottom: 0;
 }
+.main-body__second--second .owl-stage-outer {
+  height: 100%;
+}
+.main-body__second--second .owl-stage {
+  height: 100%;
+}
+.main-body__second--second .owl-item {
+  height: 100%;
+}
 
 .main-body--details {
   height: 100%;

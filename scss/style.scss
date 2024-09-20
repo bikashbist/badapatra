@@ -54,6 +54,16 @@ body{
 /* Ensure the last section doesn't have extra bottom margin */
 .main-body__second--second {
     margin-bottom: 0;
+    .owl-stage-outer{
+        height: 100%;
+
+    }
+    .owl-stage{
+        height: 100%;
+    }
+    .owl-item {
+        height: 100%;
+    }
 }
 
 .main-body--details {
