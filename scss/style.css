@@ -317,7 +317,15 @@ button.accordion-button {
     padding: 70px 0px;
   }
   .active-pointer h3 {
-    font-size: 54px !important;
+    font-size: 60px !important;
+  }
+  .card-body.active-pointer {
+    padding: 70px 0px !important;
+  }
+  .card-body.active-pointer img {
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 1440px) {
