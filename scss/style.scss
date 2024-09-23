@@ -1,9 +1,12 @@
-@import url('kokila/Kokila Regular.ttf');
+@font-face {
+    font-family: 'Kokila';
+    src: url('kokila/kokilai.ttf') format('truetype'); /* Adjust the path if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
 
-body{
-
-  font-family: "kokila" !important;
- 
+body {
+    font-family: 'Kokila', sans-serif !important; /* Fallback font added */
 }
 
 .badapatra {
