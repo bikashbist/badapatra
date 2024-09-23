@@ -123,11 +123,42 @@ body{
     }
 }
 
+.card-body {
+    position: relative; /* Ensure proper positioning */
+    background: white; /* Initial background color */
+    transition: background 0.3s ease; /* Smooth transition effect */
+}
+.btn-danger{
+    background: #d3030e !important;
+}
+button.accordion-button {
+    background: #3943b7!important;
+    margin-bottom: 8px;
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0px!important;
+}
+.accordion-item {
 
+    border: 0px !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23ffffff' d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E")!important;
+    background-size: contain; /* Adjust size as needed */
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block; /* Ensure the pseudo-element is displayed */
+    width: 1em;  /* Adjust according to the desired icon size */
+    height: 1em;
+}
 
 //slider end
 
-
+.h-vh{
+    height: 700px;
+}
 @media (min-width: 1920px) { 
     h3 {
         font-size: 32px;
@@ -153,14 +184,6 @@ body{
     .btn-close-d{
         font-size: 30px;
     }
-}
-
-@media (min-width: 1920px) { 
-    // .partinedhi__details{
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
     .margin-top{
         margin-top: 20px;
     }
