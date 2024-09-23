@@ -214,6 +214,9 @@ button.accordion-button {
   .badapatra__heading--img {
     margin-right: 20px;
   }
+  .main-body--details h3 {
+    font-size: 32px !important;
+  }
 }
 @media (min-width: 2560px) {
   .article ul li {
@@ -252,12 +255,6 @@ button.accordion-button {
   }
   .fs-3 {
     font-size: 56px !important;
-  }
-  .main-body--details h1 {
-    padding: 50px 50px;
-  }
-  .main-body--details h1 {
-    padding: 40px 50px !important;
   }
   .main-body--details h1 {
     padding: 40px 50px !important;
