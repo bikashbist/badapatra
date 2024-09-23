@@ -157,11 +157,32 @@ button.accordion-button {
     height: 1em;
 }
 
-//slider end
 
-.h-vh{
-    height: 700px;
+
+.overflow-auto::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
 }
+
+.overflow-auto::-webkit-scrollbar-track {
+    background: #050590; /* Linear gradient for the track */
+    border-radius: 10px; /* Border radius for the track */
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background: #050590; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Border radius for the thumb */
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+    background: #050590; /* Color of the scrollbar thumb on hover */
+}
+
+/* Custom scrollbar for Firefox */
+.overflow-auto {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #050590; /* Scrollbar thumb color and track color */
+}
+
 @media (min-width: 1920px) { 
     h3 {
         font-size: 32px;
@@ -228,7 +249,7 @@ button.accordion-button {
 @media (min-width: 2560px) {
    
     .article ul li {
-        font-size: 36px!important;
+        font-size: 32px !important;
     }
     .fs-2 {
         font-size: 4rem !important;
@@ -239,9 +260,9 @@ button.accordion-button {
         
     }
     p {
-        font-size: 40px;
+        font-size: 32px;
         margin-bottom: 0px;
-        line-height: 81px;
+        line-height: 60px;
     }
     .fs-3 {
         font-size: 46px !important;
@@ -258,10 +279,10 @@ button.accordion-button {
         padding: 50px 70px 40px !important;
     }
     h5{
-        font-size: 36px;
+        font-size: 22px;
     }
     h6{
-        font-size: 32px;
+        font-size: 22px;
     }
     .fs-3 {
         font-size: 56px !important;
@@ -276,6 +297,9 @@ button.accordion-button {
     .main-body--details h3 {
    
         font-size: 34px!important;
+    }
+    button.accordion-button {
+        font-size: 36px !important;
     }
   }
   
