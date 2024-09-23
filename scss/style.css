@@ -179,11 +179,14 @@ button.accordion-button {
     margin-bottom: 0px;
     line-height: 46px;
   }
+  button.accordion-button {
+    font-size: 32px !important;
+  }
   .fs-4 {
     font-size: 2.5rem !important;
   }
   .btn-close-d {
-    font-size: 30px;
+    font-size: 26px;
   }
   .margin-top {
     margin-top: 20px;
@@ -219,10 +222,13 @@ button.accordion-button {
   .fs-2 {
     font-size: 4rem !important;
   }
+  button.accordion-button {
+    font-size: 30px !important;
+  }
   p {
-    font-size: 44px;
+    font-size: 40px;
     margin-bottom: 0px;
-    line-height: 56px;
+    line-height: 81px;
   }
   .fs-3 {
     font-size: 46px !important;
@@ -257,7 +263,10 @@ button.accordion-button {
     padding: 40px 50px !important;
   }
   h3 {
-    font-size: 54px !important;
+    font-size: 42px !important;
+  }
+  .main-body--details h3 {
+    font-size: 34px !important;
   }
 }
 /* For 8K TV screens (3840px and above) */
@@ -270,6 +279,12 @@ button.accordion-button {
     margin-bottom: 20px;
   }
   .article ul li {
+    font-size: 40px !important;
+  }
+  button.accordion-button {
+    font-size: 42px !important;
+  }
+  .btn-close-d {
     font-size: 46px !important;
   }
 }/*# sourceMappingURL=style.css.map */
