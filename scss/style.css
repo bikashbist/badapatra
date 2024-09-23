@@ -296,6 +296,10 @@ button.accordion-button {
   button.accordion-button {
     font-size: 36px !important;
   }
+  button.accordion-button {
+    padding: 30px 30px;
+    font-size: 46px !important;
+  }
 }
 /* For 8K TV screens (3840px and above) */
 @media (min-width: 3840px) {
