@@ -304,8 +304,9 @@ button.accordion-button {
   }
   .img-height{
     max-height: 60%;
-    img{
-        height: 100%;
+     img {
+        min-height: 300px;
+        width: 100%;
     }
   }
   /* For 8K TV screens (3840px and above) */
