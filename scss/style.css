@@ -181,6 +181,14 @@ button.accordion-button {
   scrollbar-color: #050590; /* Scrollbar thumb color and track color */
 }
 
+.img-height {
+  max-height: 60%;
+}
+.img-height img {
+  min-height: 100%;
+  width: 100%;
+}
+
 @media (min-width: 1920px) {
   h3 {
     font-size: 32px;
@@ -289,14 +297,6 @@ button.accordion-button {
     font-size: 36px !important;
   }
 }
-.img-height {
-  max-height: 60%;
-}
-.img-height img {
-  min-height: 300px;
-  width: 100%;
-}
-
 /* For 8K TV screens (3840px and above) */
 @media (min-width: 3840px) {
   .fs-2 {
@@ -338,6 +338,13 @@ button.accordion-button {
   button.accordion-button {
     padding: 40px 30px;
     font-size: 50px !important;
+  }
+  .img-height {
+    max-height: 60%;
+  }
+  .img-height img {
+    min-height: 300px;
+    width: 100%;
   }
 }
 @media (max-width: 1440px) {
