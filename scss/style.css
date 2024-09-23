@@ -327,6 +327,10 @@ button.accordion-button {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  button.accordion-button {
+    padding: 40px 30px;
+    font-size: 50px !important;
+  }
 }
 @media (max-width: 1440px) {
   .fs-2 {

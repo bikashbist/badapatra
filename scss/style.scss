@@ -342,6 +342,10 @@ button.accordion-button {
         height: 250px;
         object-fit: cover;
     }
+    button.accordion-button {
+        padding: 40px 30px;
+        font-size: 50px!important;
+    }
     
   }
   @media (max-width: 1440px) {
