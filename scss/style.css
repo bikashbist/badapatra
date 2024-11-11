@@ -23,11 +23,11 @@ body {
 }
 
 .header {
-  height: 20%;
+  height: 25%;
 }
 
 .main-body {
-  height: 68%; /* Reduce height slightly to account for margin */
+  height: 63%; /* Reduce height slightly to account for margin */
   display: flex;
   gap: 1%; /* Space between first and second divs */
   margin: 1%;
