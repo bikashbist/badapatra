@@ -85,6 +85,10 @@ body {
   font-size: 18px;
 }
 
+.badapatra__heading--img img {
+  width: 100px;
+}
+
 .partinedhi {
   height: 100%;
   border-radius: 5px;
@@ -199,6 +203,9 @@ button.accordion-button {
   h1 {
     font-size: 36px;
   }
+  .badapatra__heading--img img {
+    width: 200px;
+  }
   .article ul li {
     font-size: 30px;
   }
@@ -299,6 +306,9 @@ button.accordion-button {
   button.accordion-button {
     padding: 30px 30px;
     font-size: 46px !important;
+  }
+  .badapatra__heading--img img {
+    width: 250px;
   }
 }
 /* For 8K TV screens (3840px and above) */
